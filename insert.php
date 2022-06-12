@@ -6,16 +6,16 @@ include "db.php";
 <form action=" " method="post">
 
                             <label>PersonID</label>
-                            <input type="number" name="PersonID">
+                            <input type="text" name="PersonID">
                             <lable>Last Name</lable>
-                            <input type="text" name="LastName">
+                            <input type="text" name="LastName"> </br>
 
                             <label>First Name</label>
-                            <input type="text" name="FirstName">
+                            <input type="text" name="FirstName"></br>
                             <lable>Address</lable>
-                            <input type="text" name="Address">
+                            <input type="text" name="Address"></br>
                             <label>City</label>
-                            <input type="text" name="City">
+                            <input type="text" name="City"></b>
 
                         <input type="submit" name="submit" value="Submit">
                     </form>
